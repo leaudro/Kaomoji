@@ -6,7 +6,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
 import com.helabs.kaomoji.R;
-import com.helabs.kaomoji.fragment.EmoticonListFragment;
+import com.helabs.kaomoji.fragment.EmoticonGridFragment;
 
 import java.util.List;
 
@@ -26,7 +26,7 @@ public class PagerAdapter extends FragmentStatePagerAdapter {
 
     @Override
     public Fragment getItem(int i) {
-        EmoticonListFragment fragment = new EmoticonListFragment();
+        EmoticonGridFragment fragment = new EmoticonGridFragment();
         fragment.setEmoticons(getEmoticons(i));
         return fragment;
     }
@@ -39,6 +39,10 @@ public class PagerAdapter extends FragmentStatePagerAdapter {
                 return context.getResources().getStringArray(R.array.emoticons1);
             case 2:
                 return context.getResources().getStringArray(R.array.emoticons2);
+            case 3:
+                return context.getResources().getStringArray(R.array.emoticons3);
+            case 4:
+                return context.getResources().getStringArray(R.array.emoticons4);
         }
         return null;
     }

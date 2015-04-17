@@ -4,7 +4,9 @@
     <string-array name="titulos">
         <item>Feliz</item>
         <item>Triste</item>
-        <item>Raiva</item>
+        <item>Apaixonado</item>
+        <item>Neutro</item>
+        <item>Bravo</item>
     </string-array>
 
     <string-array name="emoticons0">
@@ -23,11 +25,29 @@
         <item>ಠ▃ಠ</item>
         <item>ಠ 益 ಠ) ノ</item>
     </string-array>
+
     <string-array name="emoticons2">
         <item>（￣ε￣＠）</item>
         <item>(. ♥ ‿ ♥).</item>
         <item>(^з^)-☆</item>
         <item>(ʃƪ ˘ ³˘)</item>
         <item>(ΘεΘ;)</item>
+    </string-array>
+
+    <string-array name="emoticons3">
+        <item>( ・_・)ノ</item>
+        <item>(･_･”)</item>
+        <item>＜(。_。)＞</item>
+        <item>ఠ_ఠ</item>
+        <item>ゞ(・_・ヾ</item>
+    </string-array>
+
+    <string-array name="emoticons4">
+        <item>٩(×̯×)۶</item>
+        <item>凸(｀0´)凸</item>
+        <item>\(≧σ≦)</item>
+        <item>ヽ( ｀0´)ﾉ</item>
+        <item>(︶︹︺)</item>
+        <item>（;≧皿≦）</item>
     </string-array>
 </resources>
