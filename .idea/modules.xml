@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SneerEmoticonGenerator.iml" filepath="$PROJECT_DIR$/SneerEmoticonGenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kaomoji.iml" filepath="$PROJECT_DIR$/Kaomoji.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
