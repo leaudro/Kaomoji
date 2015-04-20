@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="titulos">
+        <item>Feliz</item>
+        <item>Triste</item>
+        <item>Apaixonado</item>
+        <item>Neutro</item>
+        <item>Bravo</item>
+    </string-array>
+    <string name="msg_error_open_app">Você precisa acessar o app Sneer para usar o Kaomoji</string>
+</resources>

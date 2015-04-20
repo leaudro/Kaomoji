@@ -1,37 +1,40 @@
 <resources>
     <string name="app_name">Kaomoji</string>
+    <string name="msg_error_open_app">You need to open the Sneer app in order to use Kaomoji</string>
 
     <string-array name="titulos">
-        <item>Feliz</item>
-        <item>Triste</item>
-        <item>Apaixonado</item>
-        <item>Neutro</item>
-        <item>Bravo</item>
+        <item>Happy</item>
+        <item>Sad</item>
+        <item>In Love</item>
+        <item>Neutral</item>
+        <item>Mad</item>
     </string-array>
 
     <string-array name="emoticons0">
-        <item>≖‿≖</item>
-        <item>ʘ‿ʘ</item>
-        <item>(^. _. ^) ノ</item>
-        <item>ლ (╹ ◡ ╹ ლ)</item>
-        <item>(⁀ ᗢ ⁀)</item>
+        <item>(^ _ ^) ノ</item>
+        <item>(≧∇≦)/</item>
+        <item>ლ (° ◇ ° ლ)</item>
         <item>(= ^ _ ^ =)</item>
+        <item>Ｏ(≧▽≦)Ｏ</item>
+        <item>(°◇°;)</item>
     </string-array>
 
     <string-array name="emoticons1">
-        <item>(︶︹︺)</item>
+        <item>(︺︹︺)</item>
         <item>(╥_╥)</item>
         <item>(-_-#)</item>
         <item>ಠ▃ಠ</item>
         <item>ಠ 益 ಠ) ノ</item>
+        <item>( ≧Д≦)</item>
     </string-array>
 
     <string-array name="emoticons2">
         <item>（￣ε￣＠）</item>
-        <item>(. ♥ ‿ ♥).</item>
+        <item>(. ♥ з ♥).</item>
         <item>(^з^)-☆</item>
         <item>(ʃƪ ˘ ³˘)</item>
         <item>(ΘεΘ;)</item>
+        <item>（ﾉ´∀`）</item>
     </string-array>
 
     <string-array name="emoticons3">
@@ -40,12 +43,13 @@
         <item>＜(。_。)＞</item>
         <item>ఠ_ఠ</item>
         <item>ゞ(・_・ヾ</item>
+        <item>（//･_･//)</item>
     </string-array>
 
     <string-array name="emoticons4">
         <item>٩(×̯×)۶</item>
         <item>凸(｀0´)凸</item>
-        <item>\(≧σ≦)</item>
+        <item>\\(≧σ≦)</item>
         <item>ヽ( ｀0´)ﾉ</item>
         <item>(︶︹︺)</item>
         <item>（;≧皿≦）</item>

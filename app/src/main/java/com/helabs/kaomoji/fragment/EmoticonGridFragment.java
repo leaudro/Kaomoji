@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.GridView;
-import android.widget.ListView;
+import android.widget.Toast;
 
 import com.helabs.kaomoji.R;
 import com.helabs.kaomoji.adapter.EmoticonAdapter;
@@ -37,19 +37,19 @@ public class EmoticonGridFragment extends Fragment implements AdapterView.OnItem
         return v;
     }
 
-    public void onListItemClick(ListView l, View v, int position, long id) {
-        final Activity activity = getActivity();
-        String item = adapter.getItem(position);
-        activity.startService(activity.getIntent().<Intent>getParcelableExtra("SEND_MESSAGE").setAction(item));
-        activity.finish();
-    }
-
     public void setEmoticons(String[] s) {
         emoticons = Arrays.asList(s);
     }
 
     @Override
-    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-
+    public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+        final Activity activity = getActivity();
+        String item = adapter.getItem(position);
+        try {
+            activity.startService(activity.getIntent().<Intent>getParcelableExtra("SEND_MESSAGE").setAction(item));
+        } catch (Exception ex) {
+            Toast.makeText(activity, activity.getString(R.string.msg_error_open_app), Toast.LENGTH_LONG).show();
+        }
+        activity.finish();
     }
 }
